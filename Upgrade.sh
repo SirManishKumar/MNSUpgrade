@@ -53,9 +53,9 @@ echo ' 8. Upgrade TermuxLock         |         w. WhatsApp        |'
 echo ' 9. Upgrade TermuxTool         |  github.com/SirManishKumar |'
 echo ' 0. Exit                       ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
 
-echo "==========================================================" | lolcat
+echo "=============================================================" | lolcat
 echo "       Please Choose Your Tool To Update Or Upgrade       " | lolcat
-echo "==========================================================" | lolcat
+echo "=============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Enter Number To Upgrade ]"
 read -p "╰──> " pil;
 case $pil in
