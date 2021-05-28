@@ -106,7 +106,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSAllTools Please Wait.                   " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSAllTools
@@ -127,7 +127,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSTools Please Wait.                      " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSTools
@@ -148,7 +148,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSLock Please Wait.                       " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    git clone https://github.com/SirManishKumar/MNSLock
    mv MNSLock $HOME
@@ -168,7 +168,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSNgrok Please Wait.                      " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    cd && rm -rf ngrok
    git clone https://github.com/SirManishKumar/MNSNgrok
@@ -189,7 +189,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSUbuntu Please Wait.                     " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    cd && rm -rf MNSUbuntu
    git clone https://github.com/SirManishKumar/MNSUbuntu
@@ -211,7 +211,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSSnake Please Wait.                      " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSSnake
@@ -232,7 +232,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSTermux Please Wait.                     " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSTermux
@@ -253,7 +253,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade TermuxLock Please Wait.                    " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    git clone https://github.com/SirManishKumar/TermuxLock
@@ -273,7 +273,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade TermuxTool Please Wait.                    " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf TermuxTool
@@ -294,7 +294,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    sleep 1
    echo " Starting To Upgrade MNSTools Please Wait.                      " | lolcat
    termux-setup-storage
-   apt update && apt upgrade-y
+   apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSTools
