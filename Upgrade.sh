@@ -60,8 +60,9 @@ echo -e "\e[1;32m╭─[ Enter Number To Upgrade ]"
 read -p "╰──> " pil;
 case $pil in
 u) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download MNSTools Please Wait.                     " | lolcat
+   echo " Starting To Update MNSUpgrade Please Wait.                     " | lolcat
    apt update && apt upgrade
+   apt install git -y
    pkg install python -y
    echo " It's finished Thank you for using MNSUpgrade                   " | lolcat
    clear
