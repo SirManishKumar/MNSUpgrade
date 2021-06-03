@@ -51,8 +51,8 @@ echo ' 6. Upgrade MNSSnake           |         f. Facebook        |'
 echo ' 7. Upgrade MNSTermux          |         t. Twitter         |'
 echo ' 8. Upgrade TermuxLock         |         w. WhatsApp        |'
 echo ' 9. Upgrade TermuxTool         |  github.com/SirManishKumar |'
-echo ' 0. Exit                       ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
-
+echo '10. Upgrade MNSBasicTool       ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
+echo '                                           0. Exit '
 echo "=============================================================" | lolcat
 echo "       Please Choose Your Tool To Update Or Upgrade       " | lolcat
 echo "=============================================================" | lolcat
@@ -293,19 +293,19 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
 ;;
 10) echo " Contacting To Server Please Wait.............................💯" | lolcat
    sleep 1
-   echo " Starting To Upgrade MNSTools Please Wait.                      " | lolcat
+   echo " Starting To Upgrade MNSBasicTool Please Wait.                   " | lolcat
    termux-setup-storage
    apt update && apt upgrade -y
    apt install git -y
    apt install python -y
    cd && rm -rf MNSTools
-   git clone https://github.com/SirManishKumar/MNSTools
-   mv MNSTools $HOME
+   git clone https://github.com/SirManishKumar/MNSBasicTool
+   mv MNSBasicTool $HOME
    cd && rm -rf MNSUpgrade
-   cd && cd MNSTools
-   chmod 777 install.py
-   python install.py
-   echo " It's finished Thank you for using MNSUpgrade                   " | lolcat
+   cd && cd MNSBasicTool
+   chmod 777 Tools.py
+   python Tools.py
+   echo " It's finished Thank you for using MNSUpgrade                    " | lolcat
    figlet -f slant "MNSUpgrade" | lolcat
    sleep 1
    clear
