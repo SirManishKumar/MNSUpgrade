@@ -298,7 +298,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    apt update && apt upgrade -y
    apt install git -y
    apt install python -y
-   cd && rm -rf MNSTools
+   cd && rm -rf MNSBasicTool
    git clone https://github.com/SirManishKumar/MNSBasicTool
    mv MNSBasicTool $HOME
    cd && rm -rf MNSUpgrade
