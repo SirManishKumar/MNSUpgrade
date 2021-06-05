@@ -3,6 +3,9 @@
 clear
 apt update && apt upgrade -y
 apt install git -y
+pkg install python -y
+pip install lolcat
+pkg install figlet
 clear
 green="\e[1;32m"
 yellow="\033[33;1m"
