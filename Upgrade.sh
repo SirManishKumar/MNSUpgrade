@@ -236,7 +236,7 @@ f) echo " Contacting To Server Please Wait.............................💯" | l
 ;;
 y) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Open Youtube Please Wait.                          " | lolcat
-   xdg-open https://youtube.com/mnspandit
+   xdg-open https://youtube.com/c/manishkumarmns
    echo " It's finished Thank you for using MNSUpgrade                   " | lolcat
    clear
 
